@@ -58,6 +58,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+    justify-content: center;
 
 }
 
@@ -72,6 +73,7 @@ nav .container {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-secondary);
+    
 }
 
 .dark-mode-btn {
@@ -81,4 +83,13 @@ nav .container {
     font-family: 'rubik-distressed-regular', system-ui;
     font-weight: 650;
     font-size: medium;
+}
+
+/*search and filter*/
+.search-filter {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
 }
