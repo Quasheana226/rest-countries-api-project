@@ -29,7 +29,7 @@ darkModebtn.addEventListener('click', () => {
 
     if (currentTheme === 'dark') {
         document.documentElement.removeAttribute('data-theme') // removing theme
-        darkModebtn.innerHTML = 'Dark mode' // Update button text
+        darkModebtn.innerHTML = 'Dark Mode' // Update button text
 
         localStorage.setItem('theme', 'light') // save 
     } else {
@@ -225,7 +225,7 @@ function dispplayCountryDetails(selectedCountry) {
         countryDetailsContainer.classList.remove('show')
         //Clear Details
         countryDetailsContainer.innerHTML = ''
-        
+
     })
     
 
