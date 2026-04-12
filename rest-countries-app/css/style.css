@@ -80,9 +80,12 @@ nav .container {
     background: #1e3a8a;
     color: var(--text-primary);
     border-radius: var(--border-radius);
-    font-family: 'rubik-distressed-regular', system-ui;
+    font-family: 'rubik', sans-serif;
     font-weight: 650;
     font-size: medium;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
 }
 
 /*search and filter*/
@@ -94,7 +97,7 @@ nav .container {
 
 }
 
-.search-input {
+#search-input {
     flex: 1;
     padding: 0.75rem 1rem;
     border: 1px solid var(--border);
