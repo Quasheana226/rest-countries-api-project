@@ -104,3 +104,12 @@ nav .container {
     border-radius: var(--radius);
     box-shadow: var(--shadow);
 }
+
+
+
+/* Country Card Grid */
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
