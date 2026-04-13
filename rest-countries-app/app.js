@@ -16,6 +16,9 @@ if (currentTheme) {
     darkModebtn.innerHTML = "Light Mode";
   }
 }
+
+
+
 // Click on the dark mode button
 darkModebtn.addEventListener("click", () => {
   // Theme is currently Active

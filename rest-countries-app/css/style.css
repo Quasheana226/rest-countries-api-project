@@ -108,11 +108,11 @@ nav .container {
 .country-item {
   background-color: var(--nav-bg);
   border: none;
-  border-radius: var(--radius);
+  border-radius:10px;
   box-shadow: var(--shadow);
   cursor: pointer;
   text-align: left;
-  overflow: visible;
+  overflow: hidden;
   width: 100%;
   color: var(--text-secondary);
   transition:
@@ -207,5 +207,10 @@ nav .container {
   #search-input,
   #region-filter {
     width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .country-details-container.show {
+    grid-template-columns: 1fr;
   }
 }
