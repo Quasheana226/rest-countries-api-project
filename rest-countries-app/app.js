@@ -79,9 +79,9 @@ function searchResults(countryData, searchQuery) {
   // Country data  full array of countries to search through
   // and Searchquery the letters or words the user typed in search bar
 
-  return countryData.filter((item) => 
+  return countryData.filter((item) =>
     item.name.common.toLowerCase().includes(searchQuery),
-  // Get the ountry name from API Data  and check if it contain what the user typed
+    // Get the ountry name from API Data  and check if it contain what the user typed
   );
 }
 
